@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text small{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .card_img{
+        width: 100% ;
+    }
+    .mobile_width{
+        width: 100% !important; 
+    }
+}
