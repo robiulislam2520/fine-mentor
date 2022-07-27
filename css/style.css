@@ -10,6 +10,14 @@ body{
     line-height: 27px;
 }
 
+.footer_section{
+    background-color: #161616;
+}
+.social_icons i{
+    font-size: 25px;
+    padding: 0px 8px;
+    cursor: pointer;
+}
 
 
 @media screen and (max-width:576px) {
