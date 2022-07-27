@@ -47,11 +47,11 @@
                                 <a class="nav-link" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <button class="btn btn-outline-primary mobile_btn">Register</button>
+                                <button class="btn btn-outline-primary d-lg-none d-md-none">Register</button>
                             </li>
                         </ul>
                     </div>
-                    <div class="desktop-btn">
+                    <div class="desktop-btn fd-block">
                         <button class="btn btn-outline-primary btn-lg">Register</button>
                     </div>
                 </div>
@@ -244,6 +244,55 @@
             </div>
         </section>
 
+        <!-- Ready to join Section -->
+        <section class="join_section py-5">
+            <div class="container ">
+                <div class="row bg-info py-5 px-3 rounded d-flex align-items-center">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <h2 class="h2 text-white">Ready to join?</h2>
+                        <p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12"><span></span></div>
+                    <div class="col-lg-2 col-md-12 text-center">
+                        <button class="btn btn-light btn-lg text-black" data-bs-toggle="modal" data-bs-target="#registerModal">Register</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Please Fill Up this form</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputName" class="form-label">Name</label>
+                              <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+
         <!-- FAQ Section -->
         <section class="faq_section py-5">
             <div class="container">
@@ -338,6 +387,7 @@
                 </div>
             </div>
         </section>
+
     </main>
     <!-- Footer Section -->
     <footer class="footer_section py-5">

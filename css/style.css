@@ -33,9 +33,7 @@ body{
 .navbar-expand-lg .navbar-collapse{
     justify-content: center;
 }
-.mobile_btn{
-    display: none;
-}
+
 
 
 @media screen and (max-width:576px) {
@@ -58,8 +56,5 @@ body{
     }
     .desktop-btn{
         display: none;
-    }
-    .mobile_btn{
-        display: block;
     }
 }
