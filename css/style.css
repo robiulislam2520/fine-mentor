@@ -30,6 +30,12 @@ body{
     height: 100%;
     background:rgba(29, 29, 29, 0.7);
 }
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+}
+.mobile_btn{
+    display: none;
+}
 
 
 @media screen and (max-width:576px) {
@@ -49,5 +55,11 @@ body{
     }
     .carousel-item img{
         height: 262px;
+    }
+    .desktop-btn{
+        display: none;
+    }
+    .mobile_btn{
+        display: block;
     }
 }
